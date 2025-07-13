@@ -1,0 +1,3 @@
+//
+//  VAMP-AdMob-iOS-Adapter
+//
