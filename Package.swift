@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "VAMP-AdMob-iOS-Adapter",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            exact: "13.9.0"
+            exact: "13.10.0"
         ),
     ],
     targets: [
@@ -37,7 +37,7 @@ let package = Package(
             path: "VAMPAdMobAdapterTarget"
         ),
         .binaryTarget(name: "VAMPAdMobAdapter",
-                      url: "https://github.com/AdGeneration/VAMP-AdMob-iOS-Adapter/releases/download/13.9.0/VAMPAdMobAdapter-v13.9.0.zip",
-                      checksum: "e6ea7dd5584bf075af909599133912f5df21c49c2707ed489288e0908acb39ac")
+                      url: "https://github.com/AdGeneration/VAMP-AdMob-iOS-Adapter/releases/download/13.10.0/VAMPAdMobAdapter-v13.10.0.zip",
+                      checksum: "4b2a4bcdf400a847befa377e3c381ad5f32de0ed57a5d8d76c721e3dff8bb039")
     ]
 )
