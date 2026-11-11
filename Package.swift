@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            exact: "13.11.0"
+            exact: "13.12.0"
         ),
     ],
     targets: [
@@ -37,7 +37,7 @@ let package = Package(
             path: "VAMPAdMobAdapterTarget"
         ),
         .binaryTarget(name: "VAMPAdMobAdapter",
-                      url: "https://github.com/AdGeneration/VAMP-AdMob-iOS-Adapter/releases/download/13.11.0/VAMPAdMobAdapter-v13.11.0.zip",
-                      checksum: "d451b9c926fe1dc90fdd9bdfdb401e1890caf1ac2faff41a96f04b4888d821fa")
+                      url: "https://github.com/AdGeneration/VAMP-AdMob-iOS-Adapter/releases/download/13.12.0/VAMPAdMobAdapter-v13.12.0.zip",
+                      checksum: "1fcfaa8cd78065452112bfe9007a96048bab243c81cb7558d60153d3e7952669")
     ]
 )
